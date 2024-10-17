@@ -9,5 +9,5 @@ jobs:
       - uses: coursier/cache-action@v6.4.6
       - uses: coursier/setup-action@v1.3.6
         with:
-          apps: scala
+          apps: scala scalac
       - run: sh run-sanity-check.sh
